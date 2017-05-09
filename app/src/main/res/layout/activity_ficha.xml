@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ficha"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorAccent"
+    tools:context="eldon.lafundacion.eldonapp.FichaActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_margin">
+
+    <LinearLayout
+        android:id="@+id/llServidor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivFoto"
+            android:layout_width="82dp"
+            android:layout_height="84dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:clickable="false"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/ivStarUno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="1dp"
+                    android:src="@drawable/ic_stat_name" />
+
+                <ImageView
+                    android:id="@+id/ivStarDos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="1dp"
+                    android:src="@drawable/ic_stat_name" />
+
+
+                <ImageView
+                    android:id="@+id/ivStarTres"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="1dp"
+                    android:src="@drawable/ic_stat_name" />
+
+                <ImageView
+                    android:id="@+id/ivStarCuatro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="1dp"
+                    android:src="@drawable/ic_stat_name" />
+
+
+                <ImageView
+                    android:id="@+id/ivStarCinco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="1dp"
+                    android:src="@drawable/ic_stat_name" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tvNombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="23dp"
+                    android:textStyle="bold"
+                    android:text="NOMBRE" />
+
+                <TextView
+                    android:id="@+id/tvDistancia"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DISTANCIA"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:padding="2dp"
+                    android:id="@+id/tvEdad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvEdad"
+                    android:text="EDAD" />
+
+                <TextView
+                    android:padding="2dp"
+                    android:id="@+id/tvTelefono"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvEdad"
+                    android:text="TELEFONO" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llServidorDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_margin">
+
+        <TextView
+            android:id="@+id/tvTituloActividades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Actividades" />
+
+        <TextView
+            android:id="@+id/tvActividades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Actividades" />
+
+        <TextView
+            android:id="@+id/tvTituloExperiencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Experiencia" />
+
+        <TextView
+            android:id="@+id/tvExperiencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Experiencia" />
+
+        <TextView
+            android:id="@+id/tvTituloDatoAdicional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Dato Adicional" />
+
+        <TextView
+            android:id="@+id/tvDatoAdicional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Dato Adicional" />
+
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

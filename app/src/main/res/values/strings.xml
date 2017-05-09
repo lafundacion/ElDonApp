@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">El Don</string>
+
+    <string name="ws_servicios">https://eldon-fundacionmx.rhcloud.com/ElDon/service/oficio/19.3936625/-99.1767972/1</string>
+    <string name="ws_servidores">https://eldon-fundacionmx.rhcloud.com/ElDon/service/servidorOficio/19.3936625/-99.1767972/</string>
+    <string name="ws_jornadas">http://compiquiniela-fundacionmx.rhcloud.com/Compiquiniela/service/jornada/</string>
+    <string name="ws_partidos">http://compiquiniela-fundacionmx.rhcloud.com/Compiquiniela/service/partido/</string>
+    <string name="nombreReg">NOMBRE:</string>
+    <string name="nombreHint">Nombre</string>
+    <string name="edadReg">EDAD:</string>
+    <string name="edadHint">Edad</string>
+    <string name="numeroReg">NUMERO:</string>
+    <string name="numeroHint">Numero</string>
+    <string name="actividadReg">ACTIVIDADES:</string>
+    <string name="actividadHint">Actividades</string>
+    <string name="expReg">EXPERIENCIA:</string>
+    <string name="expHint">Experiencia</string>
+    <string name="adicionalReg">DATO ADICIONAL:</string>
+    <string name="adicionalHint">Adicional</string>
+
+
+</resources>
